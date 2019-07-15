@@ -1,5 +1,9 @@
 # AuthGuard
 
+## Based on 
+# Using Angular Route Guard For securing routes
+https://codeburst.io/using-angular-route-guard-for-securing-routes-eabf5b86b4d1?gi=5f7118181d9f
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0.
 
 ## Development server
