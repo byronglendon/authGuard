@@ -13,9 +13,6 @@ import { dashboardRoutes } from './dashboard.routing';
     CommonModule,
     RouterModule.forChild(dashboardRoutes)
   ],
-  declarations: [
-    LayoutComponent,
-    HomeComponent,
-    AdminComponent]
+  declarations: [HomeComponent, AdminComponent, LayoutComponent]
 })
 export class DashboardModule { }

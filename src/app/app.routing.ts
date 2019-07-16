@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
+import { DashboardModule } from './dashboard/dashboard.module';
 
 const routes: Routes =[
   { path: 'login', component: LoginComponent },
@@ -16,7 +17,8 @@ const routes: Routes =[
   imports: [
     CommonModule,
     BrowserModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    DashboardModule
   ],
   exports: [
   ],
